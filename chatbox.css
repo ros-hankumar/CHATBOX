@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container {
+    height: 310px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#head {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#messages {
+    height: 180px;
+    overflow-y: auto;
+}
+
+.user-message {
+    background-color: #cfe2ff;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px 5px 5px auto;
+}
+
+.bot-message {
+    background-color: lightgray;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+#typing {
+    width: 180px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+#btn {
+    background-color: rgb(19, 59, 112);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
